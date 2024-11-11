@@ -122,3 +122,25 @@ body {
   background-color: red;
   color: white;
 }
+
+.personalMenuContainer {
+  display: flex;
+  width: 10%;
+  background-color: #333;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+
+.personalMenuContainer div {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.personalMenuContainer a {
+  color: white;
+  text-decoration: none;
+  text-align: justify;
+}

@@ -1,0 +1,124 @@
+body {
+  background-color: #24232a;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.maxContainer {
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+
+.containerPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  gap: 15px;
+}
+
+.imageCard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+  padding: 20px 10px;
+  background-color: #333;
+}
+
+.imageCard img {
+  border-radius: 10px;
+  width: 70%;
+}
+
+.iconsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #333;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.btnUsuario {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+  justify-content: center;
+}
+
+.iconsContainer button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.tw-followCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8rem;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #333;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.tw-followCard-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tw-followCard-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw-followCard-infoUserName {
+  opacity: 0.6;
+}
+
+.tw-followCard-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.tw-followCard-button {
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  background-color: #1da1f2;
+  color: white;
+  cursor: pointer;
+}
+
+.sectionApp {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.is-following {
+  background-color: #00ba7c;
+  color: white;
+}
+
+.is-following:hover {
+  background-color: red;
+  color: white;
+}
